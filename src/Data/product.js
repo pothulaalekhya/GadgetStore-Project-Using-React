@@ -16,7 +16,8 @@ const products = [
     price: 119999,
     rating: 4.8,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/303819_evgjjv.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/303819_evgjjv.png?tr=w-400",
     isBestSeller: true,
     brand: "Samsung",
   },
@@ -26,7 +27,8 @@ const products = [
     price: 109999,
     rating: 4.7,
     discount: "20% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/318410_0_8lQMyJiN8.png?updatedAt=1755710234218?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/318410_0_8lQMyJiN8.png?updatedAt=1755710234218?tr=w-400",
     isBestSeller: false,
     brand: "Google",
   },
@@ -36,7 +38,8 @@ const products = [
     price: 79999,
     rating: 4.6,
     discount: "25% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/306961_0_rt0l2s.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/306961_0_rt0l2s.png?tr=w-400",
     isBestSeller: false,
     brand: "OnePlus",
   },
@@ -46,7 +49,8 @@ const products = [
     price: 109999,
     rating: 4.5,
     discount: "30% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/319652_0_6AWkS1aKc.png?updatedAt=1765888000143?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/319652_0_6AWkS1aKc.png?updatedAt=1765888000143?tr=w-400",
     isBestSeller: false,
     brand: "Sony",
   },
@@ -56,7 +60,8 @@ const products = [
     price: 99999,
     rating: 4.4,
     discount: "35% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/311830_0_i26fqu.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/311830_0_i26fqu.png?tr=w-400",
     isBestSeller: false,
     brand: "Apple",
   },
@@ -66,7 +71,8 @@ const products = [
     price: 238990,
     rating: 4.1,
     discount: "50% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/303433_wwtsbv.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/303433_wwtsbv.png?tr=w-400",
     isBestSeller: false,
     brand: "Sony",
   },
@@ -76,8 +82,9 @@ const products = [
     price: 89999,
     rating: 4.5,
     discount: "20% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/317308_0_ssbA9DGDf.png?updatedAt=1763117682754?tr=w-400",
-    isBestSeller: true,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/317308_0_ssbA9DGDf.png?updatedAt=1763117682754?tr=w-400",
+    isBestSeller: false,
     brand: "Samsung",
   },
   {
@@ -86,7 +93,8 @@ const products = [
     price: 239999,
     rating: 5.0,
     discount: "15% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/318779_0_5RO-iGZcV.png?updatedAt=1772696009116?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/318779_0_5RO-iGZcV.png?updatedAt=1772696009116?tr=w-400",
     isBestSeller: true,
     brand: "Apple",
   },
@@ -96,8 +104,9 @@ const products = [
     price: 327199,
     rating: 4.8,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306604_0_bcvgzw.png?tr=w-400",
-    isBestSeller: true,
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/306604_0_bcvgzw.png?tr=w-400",
+    isBestSeller: false,
     brand: "Dell",
   },
   {
@@ -106,7 +115,8 @@ const products = [
     price: 49999,
     rating: 4.9,
     discount: "5% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/267452_0_eeziko.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Gaming/Gaming%20Consoles/Images/267452_0_eeziko.png?tr=w-400",
     isBestSeller: true,
     brand: "Sony",
   },
@@ -116,7 +126,8 @@ const products = [
     price: 89994,
     rating: 5.0,
     discount: "25% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256598_0_lcfklb.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256598_0_lcfklb.png?tr=w-400",
     isBestSeller: true,
     brand: "Apple",
   },
@@ -126,7 +137,9 @@ const products = [
     price: 12999,
     rating: 4.5,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/307142_lfn2vt.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/307142_lfn2vt.png?tr=w-400",
+    isBestSeller: true,
     brand: "Sony",
   },
   {
@@ -135,7 +148,9 @@ const products = [
     price: 1999,
     rating: 4.5,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Home%20Theatres%20and%20Audio%20Systems/Images/246220_0_mQCcgy5bQ.png?updatedAt=1762777211390?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Home%20Theatres%20and%20Audio%20Systems/Images/246220_0_mQCcgy5bQ.png?updatedAt=1762777211390?tr=w-400",
+    isBestSeller: false,
     brand: "Boat",
   },
   {
@@ -144,19 +159,33 @@ const products = [
     price: 25999,
     rating: 4.5,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Large%20Appliances/Refrigerator/Images/217088_0_gcncct.png?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Large%20Appliances/Refrigerator/Images/217088_0_gcncct.png?tr=w-400",
+    isBestSeller: false,
     brand: "LG",
   },
   {
     id: 16,
     name: "Croma 80cm (32) HD Ready Smart LED TV",
     price: 10000,
-    rating: 5,
+    rating: 5.0,
     discount: "10% OFF",
-    image: "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/319820_0_KOB2LLEDZ.png?updatedAt=1766494391676?tr=w-400",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/319820_0_KOB2LLEDZ.png?updatedAt=1766494391676?tr=w-400",
+    isBestSeller: true,
     brand: "Croma",
   },
-
+  {
+    id: 17,
+    name: "LG 242L 2 Star Frost Free Double Door Refrigerator",
+    price: 25999,
+    rating: 4.5,
+    discount: "10% OFF",
+    image:
+      "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Large%20Appliances/Refrigerator/Images/217088_0_gcncct.png?tr=w-400",
+    isBestSeller: false,
+    brand: "LG",
+  },
 ];
 
 export default products;

@@ -32,13 +32,28 @@ function App() {
 
   // Extract unique brands for filter options (static)
   const allBrands = [...new Set(products.map((product) => product.brand))];
-  // State for cart, wishlist, search, filters, and sorting
-  const [cartItems, setCartItems] = useState([]);
+
+  // State for cart
+  const [cartItems, setCartItems] = useState(() => {
+    const savedCartItems = localStorage.getItem("gadgetstore-cart");
+    return savedCartItems ? JSON.parse(savedCartItems) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("gadgetstore-cart", JSON.stringify(cartItems));
+  }, [cartItems]);
 
   // State for wishlist items
-  const [wishListItems, setWishListItems] = useState([]);
+  const [wishListItems, setWishListItems] = useState(() => {
+    const savedWishListItems = localStorage.getItem("gadgetstore-wishlist");
+    return savedWishListItems ? JSON.parse(savedWishListItems) : [];
+  });
 
-  // State for search term, selected brands, and sorting option
+  useEffect(() => {
+    localStorage.setItem("gadgetstore-wishlist", JSON.stringify(wishListItems));
+  }, [wishListItems]);
+
+  // State for search term
   const [searchTerm, setSearchTerm] = useState("");
 
   //state for selected brands in filter
